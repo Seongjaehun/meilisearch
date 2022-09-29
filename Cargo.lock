@@ -1173,6 +1173,7 @@ dependencies = [
 [[package]]
 name = "filter-parser"
 version = "0.33.4"
+source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
 dependencies = [
  "nom",
  "nom_locate",
@@ -1181,7 +1182,7 @@ dependencies = [
 [[package]]
 name = "filter-parser"
 version = "0.33.4"
-source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
+source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "nom",
  "nom_locate",
@@ -1206,6 +1207,7 @@ dependencies = [
 [[package]]
 name = "flatten-serde-json"
 version = "0.33.4"
+source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
 dependencies = [
  "serde_json",
 ]
@@ -1213,7 +1215,7 @@ dependencies = [
 [[package]]
 name = "flatten-serde-json"
 version = "0.33.4"
-source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
+source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "serde_json",
 ]
@@ -1726,6 +1728,7 @@ dependencies = [
 [[package]]
 name = "json-depth-checker"
 version = "0.33.4"
+source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
 dependencies = [
  "serde_json",
 ]
@@ -1733,7 +1736,7 @@ dependencies = [
 [[package]]
 name = "json-depth-checker"
 version = "0.33.4"
-source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
+source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "serde_json",
 ]
@@ -2249,7 +2252,7 @@ dependencies = [
  "log",
  "meilisearch-auth",
  "meilisearch-types",
- "milli 0.33.4",
+ "milli 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
  "mime",
  "mockall",
  "nelson",
@@ -2321,25 +2324,26 @@ dependencies = [
 [[package]]
 name = "milli"
 version = "0.33.4"
+source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
 dependencies = [
  "bimap",
  "bincode",
  "bstr",
  "byteorder",
- "charabia 0.6.0 (git+https://github.com/DongGuk-Seo/charabia)",
+ "charabia 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "concat-arrays",
  "crossbeam-channel",
  "csv",
  "either",
- "filter-parser 0.33.4",
- "flatten-serde-json 0.33.4",
+ "filter-parser 0.33.4 (git+https://github.com/meilisearch/milli.git?tag=v0.33.4)",
+ "flatten-serde-json 0.33.4 (git+https://github.com/meilisearch/milli.git?tag=v0.33.4)",
  "fst",
  "fxhash",
  "geoutils",
  "grenad",
  "heed",
  "itertools",
- "json-depth-checker 0.33.4",
+ "json-depth-checker 0.33.4 (git+https://github.com/meilisearch/milli.git?tag=v0.33.4)",
  "levenshtein_automata",
  "log",
  "logging_timer",
@@ -2365,26 +2369,26 @@ dependencies = [
 [[package]]
 name = "milli"
 version = "0.33.4"
-source = "git+https://github.com/meilisearch/milli.git?tag=v0.33.4#4fc6331cb6526c07f3137584564cfe3493fb25bd"
+source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "bimap",
  "bincode",
  "bstr",
  "byteorder",
- "charabia 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "charabia 0.6.0 (git+https://github.com/DongGuk-Seo/charabia)",
  "concat-arrays",
  "crossbeam-channel",
  "csv",
  "either",
- "filter-parser 0.33.4 (git+https://github.com/meilisearch/milli.git?tag=v0.33.4)",
- "flatten-serde-json 0.33.4 (git+https://github.com/meilisearch/milli.git?tag=v0.33.4)",
+ "filter-parser 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
+ "flatten-serde-json 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
  "fst",
  "fxhash",
  "geoutils",
  "grenad",
  "heed",
  "itertools",
- "json-depth-checker 0.33.4 (git+https://github.com/meilisearch/milli.git?tag=v0.33.4)",
+ "json-depth-checker 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
  "levenshtein_automata",
  "log",
  "logging_timer",
