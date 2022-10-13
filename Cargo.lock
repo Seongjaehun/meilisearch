@@ -1182,7 +1182,7 @@ dependencies = [
 [[package]]
 name = "filter-parser"
 version = "0.33.4"
-source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
+source = "git+https://github.com/Seongjaehun/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "nom",
  "nom_locate",
@@ -1215,7 +1215,7 @@ dependencies = [
 [[package]]
 name = "flatten-serde-json"
 version = "0.33.4"
-source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
+source = "git+https://github.com/Seongjaehun/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "serde_json",
 ]
@@ -1736,7 +1736,7 @@ dependencies = [
 [[package]]
 name = "json-depth-checker"
 version = "0.33.4"
-source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
+source = "git+https://github.com/Seongjaehun/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "serde_json",
 ]
@@ -2252,7 +2252,7 @@ dependencies = [
  "log",
  "meilisearch-auth",
  "meilisearch-types",
- "milli 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
+ "milli 0.33.4 (git+https://github.com/Seongjaehun/milli)",
  "mime",
  "mockall",
  "nelson",
@@ -2369,26 +2369,26 @@ dependencies = [
 [[package]]
 name = "milli"
 version = "0.33.4"
-source = "git+https://github.com/DongGuk-Seo/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
+source = "git+https://github.com/Seongjaehun/milli#51ef648d25bf5a9452969a73948b7c2f92fd796c"
 dependencies = [
  "bimap",
  "bincode",
  "bstr",
  "byteorder",
- "charabia 0.6.0 (git+https://github.com/DongGuk-Seo/charabia)",
+ "charabia 0.6.0 (git+https://github.com/Seongjaehun/charabia)",
  "concat-arrays",
  "crossbeam-channel",
  "csv",
  "either",
- "filter-parser 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
- "flatten-serde-json 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
+ "filter-parser 0.33.4 (git+https://github.com/Seongjaehun/milli)",
+ "flatten-serde-json 0.33.4 (git+https://github.com/Seongjaehun/milli)",
  "fst",
  "fxhash",
  "geoutils",
  "grenad",
  "heed",
  "itertools",
- "json-depth-checker 0.33.4 (git+https://github.com/DongGuk-Seo/milli)",
+ "json-depth-checker 0.33.4 (git+https://github.com/Seongjaehun/milli)",
  "levenshtein_automata",
  "log",
  "logging_timer",
